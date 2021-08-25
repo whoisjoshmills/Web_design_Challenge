@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Comparison</title>
+    <title>vs. Max Temperature</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -39,32 +39,41 @@
     </div>
     </nav>
 
-    <!-- CONTENT -->
-    <div class="container-fluid mt-0 container-size2">
-        <div class="row mt-5">
-            <div class="col-md-8 white py-5 px-5">
-                <h1>Comparison: Latitude vs X</h1>
+     <!--  CONTENT  -->    
+     <div class="container-fluid container-size" >
+        <div class="row mx-0 mt-5">
+            <div class="col-md-7 col-lg-7 white pb-4 pt-5 px-4 mr-4 box1">
+                <h1>Max Temperature</h1>
                 <hr class="mt-4">
-                <p class="small-font">Click any plot to get an in-depth analysis</p>
-                <div class="position2">
+                <div class="pt-4">
+                    <img src="visualizations/Fig1.png" class="img-size4 center">
+                    <p class="text-size">As expected, the weather becomes significantly warmer as one approaches the eqator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 white py-5 px-4 mb-5 mx-4 theheight">
+                <h2>Visualizations</h2>
+                <hr class="mt-4">
+                <div class="position">
                     <a href="/vis1.html">
-                        <img src="visualizations/Fig1.png" class="img-size3" id="vis-imgs1">
+                        <img src="visualizations/Fig1.png" class="img-size2" style="border:3px solid teal;" id="vis-imgs1">
                     </a>
                     <a href="/vis2.html">
-                        <img src="visualizations/Fig2.png" class="img-size3" id="vis-imgs2">
+                        <img src="visualizations/Fig2.png" class="img-size2" id="vis-imgs2">
                     </a>
+                </div>
+                <div class="position">
                     <a href="/vis3.html">
-                        <img src="visualizations/Fig3.png" class="img-size3" id="vis-imgs3">
+                        <img src="visualizations/Fig3.png" class="img-size2" id="vis-imgs1">
                     </a>    
                     <a href="/vis4.html">
-                        <img src="visualizations/Fig4.png" class="img-size3" id="vis-imgs4">
+                        <img src="visualizations/Fig4.png" class="img-size2" id="vis-imgs2">
                     </a>
                 </div>   
             </div> 
         </div>
     </div>
-
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
